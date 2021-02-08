@@ -5,7 +5,7 @@
 ## 🚀 Projeto Bikcraft
 
 <div align='center'>
-<img src=".github/bikecraft.jpg" width='500'>
+<img src=".github/bikcraft.jpg" width='500'>
 </div>
 
 ---
