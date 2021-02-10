@@ -11,8 +11,17 @@
 ---
 
 # 📚 O que eu aprendi com o projeto!
+- Fundamentos do design;
+- Usabilidade;
+- Design de Interface;
+- Tags semânticas do HTML5;
+- Seletores CSS;
+- Grid CSS;
+- Normalize e Reset CSS;
+- Responsividade;
+- SEO e Analytics;
+- Domínio e Hospedagem.
 
-- 
 
 # 💻 Tecnologias
 
