@@ -17,6 +17,7 @@
 - Tags semânticas do HTML5;
 - Seletores CSS;
 - Grid CSS;
+- Transitions CSS;
 - Normalize e Reset CSS;
 - Responsividade;
 - SEO e Analytics;
