@@ -173,6 +173,7 @@ p {
 
 .produtos-lista li p {
     padding: 10px 20px 20px;
+    font-weight: 500;
 }
 
 .produtos-icone {
@@ -189,4 +190,40 @@ p {
 
 .cta p {
     margin-bottom: 20px;
+}
+
+.portfolio {
+    width: 100%;
+    background: black;
+    padding: 60px 0;
+}
+
+.portfolio .subtitulo {
+    color: var(--c-yellow);
+}
+
+.portfolio .subtitulo::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    margin: 5px auto 25px;
+    background-color: var(--c-yellow);
+}
+
+.portfolio-lista li:last-child {
+    margin-top: 15px;
+}
+
+.portfolio-lista li > img {
+    opacity: .5;
+    transition: all 0.5s ease-out;
+}
+
+.portfolio-lista li > img:hover {
+    opacity: 1;
+}
+
+.portfolio .cta p {
+    color: white;
 }
