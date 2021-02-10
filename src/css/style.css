@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+/* Tipografias */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600;700&display=swap');
+
 /* Variaveis Globais */
 :root {
     --c-yellow: #FEC63E;
@@ -10,17 +12,17 @@
 
 /* Estilos Globais */
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
-    font-family: 'Domine', serif;
+    font-family: 'Bitter', serif;
     font-size: 14px;
     line-height: 20px;
 }
 
 .subtitulo {
-    font: size 24px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 600;
     letter-spacing: .1em;
@@ -34,7 +36,7 @@ p {
     content: "";
     width: 60px;
     height: 3px;
-    margin: 12px auto;
+    margin: 5px auto 25px;
     background-color: black;
 }
 
@@ -50,9 +52,14 @@ p {
     letter-spacing: .1em;
 }
 
-.btn-outline:hover {
+.btn-outline.branco:hover {
     border-color: white;
     color: white;
+}
+
+.btn-outline.preto:hover {
+    border-color: black;
+    color: black;
 }
 
 /* Estilos Header */
@@ -64,6 +71,7 @@ p {
     background: var(--c-yellow);
     width: 100%;
     padding: 1rem 0;
+    z-index: 10;
 }
 
 .box-menu {
@@ -124,7 +132,7 @@ p {
     content: "";
     width: 60px;
     height: 3px;
-    margin: 14px auto;
+    margin: 10px auto;
     background-color: white;
 }
 
@@ -142,10 +150,43 @@ p {
 
 .produtos-lista li{
     background: var(--c-yellow);
+    text-align: center;
+}
+
+.produtos-lista li h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.produtos-lista li h3::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    margin: 4px auto;
+    background-color: black;
+}
+
+.produtos-lista li p {
+    padding: 10px 20px 20px;
 }
 
 .produtos-icone {
     background: black;
     text-align: center;
     padding: 1rem;
+}
+
+.cta {
+    clear: both;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.cta p {
+    margin-bottom: 20px;
 }
