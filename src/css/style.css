@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
 /* Variaveis Globais */
 :root {
     --c-yellow: #FEC63E;
@@ -11,6 +12,49 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
+
+p {
+    font-family: 'Domine', serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.subtitulo {
+    font: size 24px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulo::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    margin: 12px auto;
+    background-color: black;
+}
+
+/* Estilos Botões */
+.btn-outline {
+    border: 3px solid var(--c-yellow);
+    padding: 10px 30px;
+    color: var(--c-yellow);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.btn-outline:hover {
+    border-color: white;
+    color: white;
+}
+
 /* Estilos Header */
 .header {
     display: flex;
@@ -44,4 +88,64 @@ body {
 
 .menu li a:hover {
     color: white;
+}
+
+/* Estilos Introdução */
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url("../assets/images/bg-home.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 96px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p::before, .quote-externo p::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    margin: 14px auto;
+    background-color: white;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+/* Estilos Produtos */
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos-lista li{
+    background: var(--c-yellow);
+}
+
+.produtos-icone {
+    background: black;
+    text-align: center;
+    padding: 1rem;
 }
