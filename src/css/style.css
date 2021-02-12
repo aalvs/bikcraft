@@ -573,9 +573,13 @@ p {
 
 .orcamento-dados span, .orcamento-dados p {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
     font-family: 'Bitter', serif;
+}
+
+.orcamento-dados span:nth-of-type(even) {
+    margin-bottom: 40px;
 }
 
 .orcamento-dados ul {
@@ -586,10 +590,6 @@ p {
     margin: 8px 0;
 }
 
-.orcamento-dados span:nth-child(3) {
-    margin-bottom: 40px;
-}
-
 .orcamento-dados ul li {
     font-family: 'Bitter', serif;
     font-size: 15px;
@@ -598,4 +598,116 @@ p {
 
 .orcamento-dados ul li:nth-child(odd) {
     background: #1d1d1d;
+}
+
+/* Portfolio */
+.bg-portfolio {
+    background: url("../assets/images/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.quote-cliente {
+    padding: 60px 0;
+    max-width: 410px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-cliente p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote-cliente cite {
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Contato */
+.bg-contato {
+    background: url("../assets/images/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.contato {
+    padding: 40px 0;
+}
+
+.form-contato {
+    padding-right: 60px;
+}
+
+.form-contato label {
+    display: block;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.form-contato input {
+    width: 100%;
+    border: 3px solid var(--c-yellow);
+    background: transparent;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+    margin-bottom: 10px;
+}
+
+.form-contato textarea {
+    width: 100%;
+    height: 120px;
+    border: 3px solid var(--c-yellow);
+    background: transparent;
+    padding: 8px 10px;
+    font-size: 14px;
+    font-family: 'Bitter', serif;
+    margin-bottom: 10px;
+}
+
+.form-contato button {
+    background: transparent;
+    padding: 8px 40px;
+}
+
+.contato-dados h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-yellow);
+    padding-bottom: 10px;
+}
+
+.contato-dados span, .contato-dados p {
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Bitter', serif;
+}
+
+.contato-dados span:nth-of-type(even) {
+    margin-bottom: 30px;
+}
+
+.contato-dados ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato-dados ul li a {
+    display: block;
+    padding: 8px;
+    border: 3px solid var(--c-yellow);
+}
+
+.contato-dados ul li a:hover {
+    border-color: black;
+}
+
+.contato-mapa {
+    margin-bottom: 60px;
 }
