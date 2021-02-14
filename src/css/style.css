@@ -782,14 +782,6 @@ img {
 }
 
 /* CSS SimpleAnime */
-.js [data-anime] {
-	opacity: 0;
-}
-.js .anime {
-	opacity: 1;
-	transform: none;
-	transition: transform .8s, opacity .8s;
-}
 .js .fadeInDown {
 	transform: translate3d(0,-20px,0);
 }
@@ -801,4 +793,12 @@ img {
 }
 .js .fadeInLeft {
 	transform: translate3d(-20px,0,0);
+}
+.js [data-anime] {
+	opacity: 0;
+}
+.js .anime {
+	opacity: 1;
+	transform: none;
+	transition: transform .8s, opacity .8s;
 }
