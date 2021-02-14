@@ -16,3 +16,7 @@ if (window.SimpleSlide) {
         pauseOnHover: true, // pausa a transição automática
     });
 }
+
+if (window.SimpleSlide) {
+    new SimpleAnime();
+}
