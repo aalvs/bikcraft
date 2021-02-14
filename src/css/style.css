@@ -9,6 +9,8 @@
     --c-yellow: #FEC63E;
     --c-gray: #484b4d;
     --c-gray-light: #a9aeb3;
+	--c-sucesso: #31aa39;
+	--c-erro: #f64540;
     --bg-light: #d9e0e6;
 
 	--font-Poppins: 'Poppins', sans-serif;
@@ -741,6 +743,20 @@ img {
 .contato_mapa iframe {
 	width: 100%;
 	height: 360px;
+}
+
+.nao-aparece {
+	visibility: hidden;
+	position: absolute;
+	height: 0;
+}
+
+#form-sucesso {
+	color: var(--c-sucesso);
+}
+
+#form-erro {
+	color: var(--c-erro);
 }
 
 /* CSS SimpleSlide */
