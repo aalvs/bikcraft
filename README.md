@@ -19,6 +19,9 @@
 - Grid CSS;
 - Transitions CSS;
 - Normalize e Reset CSS;
+- Animações CSS com JS;
+- Submit de formulário com JS;
+- Configuração de Plugins;
 - Responsividade;
 - SEO e Analytics;
 - Domínio e Hospedagem.
@@ -31,6 +34,16 @@
 <a href='https://www.w3schools.com/css/'>CSS3</a>
 <br/>
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>JavaScript</a>
+<br/>
+<a href='https://github.com/origamid/simple-slide'>Plugn SimpleSlide</a>
+<br/>
+<a href='https://github.com/origamid/simple-anime'>Plugn SimpleAnime</a>
+<br/>
+<a href='https://github.com/origamid/simple-form'>Plugn SimpleForm</a>
+<br/>
+<a href='https://github.com/PHPMailer/PHPMailer'>Plugn PHPMailer</a>
+<br/>
+<a href='https://github.com/sendgrid/sendgrid-php'>Plugn sendGrid</a>
 <br/>
 <a href='https://code.visualstudio.com/'>Visual Studio Code</a>
 <br/>
