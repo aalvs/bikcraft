@@ -4,13 +4,11 @@
 
 ## 🚀 Projeto Bikcraft
 
-<div align='center'>
-<img src=".github/bikcraft.jpg" width='500'>
-</div>
+<a href='https://aalvs.github.io/bikcraft/src/pages/index.html'>Clique aqui para ver online!</a>
 
 ---
-
 # 📚 O que eu aprendi com o projeto!
+
 - Fundamentos do design;
 - Usabilidade;
 - Design de Interface;
@@ -26,7 +24,6 @@
 - SEO e Analytics;
 - Domínio e Hospedagem.
 
-
 # 💻 Tecnologias
 
 <a href='https://www.w3schools.com/html/'>HTML5</a>
@@ -35,20 +32,18 @@
 <br/>
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'>JavaScript</a>
 <br/>
-<a href='https://github.com/origamid/simple-slide'>Plugn SimpleSlide</a>
+<a href='https://github.com/origamid/simple-slide'>Plugin SimpleSlide</a>
 <br/>
-<a href='https://github.com/origamid/simple-anime'>Plugn SimpleAnime</a>
+<a href='https://github.com/origamid/simple-anime'>Plugin SimpleAnime</a>
 <br/>
-<a href='https://github.com/origamid/simple-form'>Plugn SimpleForm</a>
+<a href='https://github.com/origamid/simple-form'>Plugin SimpleForm</a>
 <br/>
-<a href='https://github.com/PHPMailer/PHPMailer'>Plugn PHPMailer</a>
+<a href='https://github.com/PHPMailer/PHPMailer'>Plugin PHPMailer</a>
 <br/>
-<a href='https://github.com/sendgrid/sendgrid-php'>Plugn sendGrid</a>
+<a href='https://github.com/sendgrid/sendgrid-php'>Plugin sendGrid</a>
 <br/>
 <a href='https://code.visualstudio.com/'>Visual Studio Code</a>
 <br/>
-
-
 
 # 📝 Sobre o projeto
 
