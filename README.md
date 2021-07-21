@@ -4,7 +4,7 @@
 
 ## 🚀 Projeto Bikcraft
 
-<a href='https://aalvs.github.io/bikcraft/src/pages/index.html'>Clique aqui para ver online!</a>
+<a target="_blank" href='https://aalvs.github.io/bikcraft/src/pages/index.html'>Clique aqui para ver online!</a>
 
 ---
 # 📚 O que eu aprendi com o projeto!
