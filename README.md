@@ -2,10 +2,6 @@
 <img src=".github/logo-origamid.svg" width='250'>
 </div>
 
-## 🚀 Projeto Bikcraft
-
-<a href="https://aalvs.github.io/bikcraft/src/pages/index.html" target="_blank">Clique aqui para ver online!</a>
-
 ---
 # 📚 O que eu aprendi com o projeto!
 
